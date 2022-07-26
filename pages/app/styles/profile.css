@@ -1,0 +1,36 @@
+
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(83, 100, 229);
+    box-shadow: none;
+    border: none
+}
+
+
+.profile-button:focus {
+    background: #3a83f0;
+    box-shadow: none
+}
+
+
+.back:hover {
+   
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+@media only screen and (max-width: 992px) {
+    .nav {
+
+        display: none;
+
+    }
+}
